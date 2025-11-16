@@ -1,0 +1,25 @@
+vim pod.yml ->nginx
+kubectl create -f pod.yml
+kubectl get pods
+kubectl get pods -o wide ->more additional information
+minikube ssh ->login to cluster 
+curl <ipaddofpod>
+kubectl delete pod nginx #<podname>
+
+kubectl get deploy
+kubectl delete deploy <deployname>
+kubectl det all ->all resources in that particular namespace
+kubectl get all -A ->for all namespace
+vim deployment.yml ->nginx deployment
+kubectl apply -f deployment.yml
+kubectl get pods ->created
+kubectl get deploy
+kubectl get rs ->replica set
+kubectl delete pod <podname>
+kubectl get pods -w ->watching live in new tab to see how autohealing is working
+kubectl get pods
+
+
+
+
+
